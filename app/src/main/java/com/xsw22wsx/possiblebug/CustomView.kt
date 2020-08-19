@@ -12,7 +12,7 @@ import kotlin.math.min
 class CustomView : View {
 
     // When this line is commented the view renders properly in the layout editor
-    //var property: Int by CustomProperty(0)
+    var property: Int by CustomProperty(0)
 
     constructor(context: Context?) : super(context)
     constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs)
